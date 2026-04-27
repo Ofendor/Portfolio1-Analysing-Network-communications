@@ -22,7 +22,7 @@ In this project, I used the information provided by a network protocol analyser 
 
 <p style="color: #1e203b; font-size: 16px; font-weight: bold;">Activity Overview</p>
 Working as a Cyber Security Analyst in a company that provides IT services, I receive reports from clients saying that they were not able to access the client company's website www.plantbasedrecipes.com, and saw the error "destination port unreachable" after waiting for the page to load.
-I was tasked with analysing the situation and determine which network protocol was affected during this incident. To start, I use a network analyser tool, tcpdump, and attempt to load the webpage. The analyser showed that when I send UDP packets to the DNS server, I receive ICMP packets containing the error message: "udp port 53 unreachable". With the information provided, I wrote a follow-up report.
+I was tasked with analysing the situation and determine which network protocol was affected during this incident. To start, I use a network analyser tool, `tcpdump`, and attempt to load the webpage. The analyser showed that when I send UDP packets to the DNS server, I receive ICMP packets containing the error message: "udp port 53 unreachable". With the information provided, I wrote a follow-up report.
 
 
 <p style="font-size: 12px; font-style: italic; color: #4a4a4a;">
